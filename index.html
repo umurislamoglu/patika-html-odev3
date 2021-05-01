@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 1500px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
+      .search {
+        background-color: #eeeeee;
+        margin: auto 0;
+      }
+      .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+      }
+      .special1 {
+        width: 600px;
+        background-color: #7ee5da;
+      }
+      .special2 {
+        width: 300px;
+        background-color: #70ccc2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .special3 {
+        width: 600px;
+        background-color: #62b3aa;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .special3 input {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img
+          src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg"
+          alt=""
+        />
+      </div>
+      <div class="search">
+        <p>Search the Web using Google!</p>
+        <input type="text" class="searchbar" />
+        <div class="buttons">
+          <button>Google Search</button>
+          <button>I'm feeling lucky</button>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="special special1">
+          <p>Special Searches</p>
+          <a href="#">Stanford Search</a>
+          <a href="#">Linux Search</a>
+        </div>
+        <div class="special special2">
+          <a href="#">Help</a>
+          <a href="#">About Google</a>
+          <a href="#">Company info</a>
+          <a href="#">Google logos</a>
+        </div>
+        <div class="special special3">
+          <p>Get Google updates monthly</p>
+          <input type="text" placeholder="your-email" />
+          <div class="buttons">
+            <button>Subscibe</button>
+            <a href="#">Archive</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
